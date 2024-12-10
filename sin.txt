@@ -6,3 +6,19 @@ c=a+b;
 printf("Result is %d",c);
 return 0;
 }
+
+#include<stdio.h>
+int main()
+{
+int x,y,temp;
+x=3;
+y=6;
+temp=x;
+x=y;
+y=temp;
+printf("After Swapping x:%d,y:%d",x,y);
+return 0;
+}
+
+
+
